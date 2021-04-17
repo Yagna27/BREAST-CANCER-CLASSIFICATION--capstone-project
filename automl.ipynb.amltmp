@@ -1024,9 +1024,20 @@
     },
     {
       "cell_type": "code",
-      "source": [],
-      "outputs": [],
-      "execution_count": null,
+      "source": [
+        "service.delete"
+      ],
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 49,
+          "data": {
+            "text/plain": "<bound method Webservice.delete of AciWebservice(workspace=Workspace.create(name='quick-starts-ws-142915', subscription_id='aa7cf8e8-d23f-4bce-a7b9-1f0b4e0ac8ee', resource_group='aml-quickstarts-142915'), name=automl-bestmodel-breast-cancer, image_id=None, compute_type=None, state=ACI, scoring_uri=Healthy, tags=http://42e7f579-4b3d-4250-aee7-702d67e48ee5.southcentralus.azurecontainer.io/score, properties=None, created_by={'azureml.git.repository_uri': 'https://github.com/Yagna27/capstone-project.git', 'mlflow.source.git.repoURL': 'https://github.com/Yagna27/capstone-project.git', 'azureml.git.branch': 'main', 'mlflow.source.git.branch': 'main', 'azureml.git.commit': 'c84f2e1462a81161113e4d21ef9035cef7824b89', 'mlflow.source.git.commit': 'c84f2e1462a81161113e4d21ef9035cef7824b89', 'azureml.git.dirty': 'True', 'hasInferenceSchema': 'True', 'hasHttps': 'False'})>"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 49,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -1037,6 +1048,9 @@
           "transient": {
             "deleting": false
           }
+        },
+        "gather": {
+          "logged": 1618657479347
         }
       }
     },
