@@ -11,3 +11,13 @@
 2021-04-17 09:38:39.356 - INFO - 20269 - azureml.automl.runtime.featurization.data_transformer.__init__:174 - Feature sweeping timeout: 86400
 2021-04-17 09:38:42.818 - INFO - 20269 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=15285.71[ms]
 2021-04-17 09:38:42.896 - INFO - 20269 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=15563.61[ms]
+2021-04-17 10:40:07.030 - INFO - 20269 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2021-04-17 10:40:07.042 - INFO - 20269 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetOutput
+2021-04-17 10:40:07.053 - INFO - 20269 - azureml.train.automl.run._log_activity:55 - ActivityStarted: GetChildren
+2021-04-17 10:40:07.778 - INFO - 20269 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetChildren, HowEnded=Success, Duration=725.08[ms]
+2021-04-17 10:40:08.170 - INFO - 20269 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=1128.36[ms]
+2021-04-17 10:40:08.170 - INFO - 20269 - azureml.train.automl._model_download_utilities._log_activity:55 - ActivityStarted: DownloadModel
+2021-04-17 10:40:09.703 - INFO - 20269 - azureml.automl.runtime.featurization.data_transformer.__init__:173 - Feature sweeping enabled: False
+2021-04-17 10:40:09.703 - INFO - 20269 - azureml.automl.runtime.featurization.data_transformer.__init__:174 - Feature sweeping timeout: 86400
+2021-04-17 10:40:09.739 - INFO - 20269 - azureml.train.automl._model_download_utilities._log_activity:93 - ActivityCompleted: Activity=DownloadModel, HowEnded=Success, Duration=1568.45[ms]
+2021-04-17 10:40:09.739 - INFO - 20269 - azureml.train.automl.run._log_activity:93 - ActivityCompleted: Activity=GetOutput, HowEnded=Success, Duration=2709.43[ms]

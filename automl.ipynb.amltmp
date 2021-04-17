@@ -426,11 +426,52 @@
         "\r\n",
         "model_ml = best_run.register_model(model_name='Breast_Cancer_Classitification_auto_ml', model_path='./')"
       ],
-      "outputs": [],
-      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Run(Experiment: Breastcancer_automl,\n",
+            "Id: AutoML_27fc52fe-52d5-4965-bac0-4c915d914966_28,\n",
+            "Type: azureml.scriptrun,\n",
+            "Status: Completed)\n",
+            "Pipeline(memory=None,\n",
+            "         steps=[('datatransformer',\n",
+            "                 DataTransformer(enable_dnn=None, enable_feature_sweeping=None,\n",
+            "                                 feature_sweeping_config=None,\n",
+            "                                 feature_sweeping_timeout=None,\n",
+            "                                 featurization_config=None, force_text_dnn=None,\n",
+            "                                 is_cross_validation=None,\n",
+            "                                 is_onnx_compatible=None, logger=None,\n",
+            "                                 observer=None, task=None, working_dir=None)),\n",
+            "                ('prefittedsoftvotingclassifier',...\n",
+            "                                                                                               objective='reg:logistic',\n",
+            "                                                                                               random_state=0,\n",
+            "                                                                                               reg_alpha=1.875,\n",
+            "                                                                                               reg_lambda=0.9375,\n",
+            "                                                                                               scale_pos_weight=1,\n",
+            "                                                                                               seed=None,\n",
+            "                                                                                               silent=None,\n",
+            "                                                                                               subsample=0.5,\n",
+            "                                                                                               tree_method='auto',\n",
+            "                                                                                               verbose=-10,\n",
+            "                                                                                               verbosity=0))],\n",
+            "                                                                     verbose=False))],\n",
+            "                                               flatten_transform=None,\n",
+            "                                               weights=[0.14285714285714285,\n",
+            "                                                        0.14285714285714285,\n",
+            "                                                        0.2857142857142857,\n",
+            "                                                        0.14285714285714285,\n",
+            "                                                        0.14285714285714285,\n",
+            "                                                        0.14285714285714285]))],\n",
+            "         verbose=False)\n"
+          ]
+        }
+      ],
+      "execution_count": 48,
       "metadata": {
         "gather": {
-          "logged": 1618653089167
+          "logged": 1618656010863
         },
         "jupyter": {
           "outputs_hidden": false,
